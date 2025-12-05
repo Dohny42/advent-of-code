@@ -1,6 +1,6 @@
-from aocd import get_data
+import data_fetch
 
-# data: list[str] = get_data(day=1, year=2025).splitlines()
+# data: list[str] = data_fetch.fetch_aoc_data(year=2025, day=1).splitlines()
 
 data = """L68
 L30

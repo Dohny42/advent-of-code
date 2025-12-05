@@ -5,13 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "advent-of-code-data>=2.1.0",
+    "requests>=2.32.5",
 ]
-
-[[tool.uv.index]]
-name = "captain"
-url = "https://captain.rtf.siemens.net/artifactory/api/pypi/et200_xx_test_suite-dev-internal-pypi/simple"
 
 [[tool.uv.index]]
 url = "https://pypi.org/simple"
 default = true
+
+[[tool.uv.index]]
+name = "captain"
+url = "https://captain.rtf.siemens.net/artifactory/api/pypi/et200_xx_test_suite-dev-internal-pypi/simple"
